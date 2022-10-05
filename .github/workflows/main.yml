@@ -51,7 +51,7 @@ jobs:
         if: runner.os == 'Linux'
         uses: rumblefrog/setup-sp@master
         with:
-          version: '1.11.x'
+          version: '1.10.x'
           
       - name: Checking out SourceMod
         uses: actions/checkout@v2
